@@ -1,7 +1,5 @@
 package com.company.samples.psql;
 
-import com.company.samples.mysql.*;
-
 import javax.sql.DataSource;
 
 /**
@@ -15,5 +13,5 @@ public class Run3 {
 
         System.out.println("DataSource ::::: " + ds.getConnection());
     }
-    
+
 }
