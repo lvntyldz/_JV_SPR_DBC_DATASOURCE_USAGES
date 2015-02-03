@@ -1,4 +1,4 @@
-package com.company.samples.demo1;
+package com.company.samples.mysql;
 
 import javax.sql.DataSource;
 
