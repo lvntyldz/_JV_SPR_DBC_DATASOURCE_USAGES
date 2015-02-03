@@ -14,8 +14,6 @@ public class Connection {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("org.sqlite.JDBC");
         dataSource.setUrl("jdbc:sqlite:C:\\temp\\customer.db");
-//        dataSource.setUsername("adm_lyildiz");
-//        dataSource.setPassword("123456");
         return dataSource;
     }
 
